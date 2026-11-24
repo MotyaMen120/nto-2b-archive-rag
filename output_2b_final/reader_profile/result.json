@@ -1,0 +1,30 @@
+{
+  "timing_only": true,
+  "n": 10,
+  "folds": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    2,
+    3,
+    3,
+    4,
+    4
+  ],
+  "reader_seconds_including_load": 154.5072785000002,
+  "seconds_per_question_including_load": 15.450727850000021,
+  "parse_failures": 3,
+  "resources": {
+    "elapsed_seconds": 167.6575583999993,
+    "sampled_peak_rss_gib": 3.4153518676757812,
+    "rss_includes_children": true,
+    "rss_sample_interval_seconds": 0.2,
+    "cuda_device": "NVIDIA GeForce RTX 3070 Ti Laptop GPU",
+    "cuda_peak_allocated_gib": 6.78675651550293,
+    "cuda_peak_reserved_gib": 7.150390625,
+    "t4_verified": false
+  },
+  "note": "Fixed reader and lexical retrieval, no training or metric tuning. This is not a full OOF score."
+}

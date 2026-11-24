@@ -1,0 +1,73 @@
+{
+  "evidence_only": true,
+  "official_S": null,
+  "n_questions": 800,
+  "note": "Fixed lexical retrieval; LightGBM trained strictly on other groups. Empty-gold no_info excluded from evidence-only means.",
+  "all": {
+    "n": 786,
+    "baseline_ap5": 0.3979725049476958,
+    "meta_ap5": 0.5023738337574215,
+    "baseline_weighted_ap5": 0.32766744983963597,
+    "meta_weighted_ap5": 0.42465347703935746
+  },
+  "by_level": {
+    "light": {
+      "n": 320,
+      "baseline_ap5": 0.6245746527777778,
+      "meta_ap5": 0.7214045138888888,
+      "baseline_weighted_ap5": 0.6245746527777778,
+      "meta_weighted_ap5": 0.7214045138888888
+    },
+    "medium": {
+      "n": 271,
+      "baseline_ap5": 0.2516092660926609,
+      "meta_ap5": 0.391219762197622,
+      "baseline_weighted_ap5": 0.25931200857755543,
+      "meta_weighted_ap5": 0.39846179810976096
+    },
+    "heavy": {
+      "n": 195,
+      "baseline_ap5": 0.22951994301994305,
+      "meta_ap5": 0.29741452991452993,
+      "baseline_weighted_ap5": 0.2379036334913112,
+      "meta_weighted_ap5": 0.3070047393364929
+    }
+  },
+  "by_fold": {
+    "0": {
+      "n": 156,
+      "baseline_ap5": 0.420105056980057,
+      "meta_ap5": 0.5203579059829061,
+      "baseline_weighted_ap5": 0.33733052547131964,
+      "meta_weighted_ap5": 0.4163738467709587
+    },
+    "1": {
+      "n": 157,
+      "baseline_ap5": 0.4506334041047416,
+      "meta_ap5": 0.5470046001415428,
+      "baseline_weighted_ap5": 0.36073138795361015,
+      "meta_weighted_ap5": 0.4619397680508792
+    },
+    "2": {
+      "n": 157,
+      "baseline_ap5": 0.3496160651096957,
+      "meta_ap5": 0.4686111111111111,
+      "baseline_weighted_ap5": 0.2841825130499627,
+      "meta_weighted_ap5": 0.3948881431767338
+    },
+    "3": {
+      "n": 158,
+      "baseline_ap5": 0.38872187060478197,
+      "meta_ap5": 0.4989521800281294,
+      "baseline_weighted_ap5": 0.3306114660986865,
+      "meta_weighted_ap5": 0.42904863329783455
+    },
+    "4": {
+      "n": 158,
+      "baseline_ap5": 0.3810935302390998,
+      "meta_ap5": 0.47723980309423353,
+      "baseline_weighted_ap5": 0.32615882567469007,
+      "meta_weighted_ap5": 0.42043186238755176
+    }
+  }
+}

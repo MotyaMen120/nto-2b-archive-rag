@@ -1,0 +1,21 @@
+{
+  "synthetic_only": true,
+  "expected": {
+    "synthetic-status": "promised",
+    "synthetic-math": "2"
+  },
+  "actual": {
+    "synthetic-status": "promised",
+    "synthetic-math": "2"
+  },
+  "resources": {
+    "elapsed_seconds": 37.67156090000026,
+    "sampled_peak_rss_gib": 2.7926483154296875,
+    "rss_includes_children": true,
+    "rss_sample_interval_seconds": 0.2,
+    "cuda_device": "NVIDIA GeForce RTX 3070 Ti Laptop GPU",
+    "cuda_peak_allocated_gib": 5.8788981437683105,
+    "cuda_peak_reserved_gib": 5.96484375,
+    "t4_verified": false
+  }
+}

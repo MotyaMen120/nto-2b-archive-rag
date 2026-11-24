@@ -1,0 +1,35 @@
+# Python environments and bytecode
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Local pretrained weights, resumable downloads and indices
+weights_2b/*
+!weights_2b/manifest.json
+.cache_2b*/
+**/cache/
+**/.cache/
+**/.parts/
+*.safetensors
+*.gguf
+pytorch_model*.bin
+*.incomplete
+*.part
+*.lock
+
+# Machine-specific state and large inference checkpoints
+output_2b_final/progress.json
+**/raw.jsonl
+*.raw.jsonl
+solution_2b_complete.zip
+.ipynb_checkpoints/
+
+# Editor and OS files
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store

@@ -1,0 +1,3 @@
+qid,question,asked_at,answer_format,unit,options
+synthetic-status,Какой статус открытия парка?,2024-02-01,status,,
+synthetic-math,Сколько дней прошло от публикации анонса открытия парка до публикации новости о его открытии?,2024-02-03,number,дней,
