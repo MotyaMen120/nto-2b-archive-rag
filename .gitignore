@@ -1,0 +1,44 @@
+# Python environments and bytecode
+__pycache__/
+*.py[cod]
+.venv/
+.venv_2b/
+venv/
+.env
+.env.*
+!.env.example
+
+# Local pretrained weights, resumable downloads and indices
+weights_2b/*
+!weights_2b/manifest.json
+.cache_2b*/
+**/cache/
+**/.cache/
+**/.parts/
+*.safetensors
+*.gguf
+pytorch_model*.bin
+*.incomplete
+*.part
+*.lock
+
+# Large datasets and intermediate outputs
+corpus*.parquet
+*.parquet
+output_2b_final/
+output_2b_v2/
+*.zip
+*.sqlite
+*.pt
+*.npz
+*.npy
+*.memmap
+**/raw.jsonl
+*.raw.jsonl
+.ipynb_checkpoints/
+
+# Editor and OS files
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store

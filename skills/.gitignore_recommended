@@ -1,0 +1,27 @@
+# Данные корпуса и тяжёлые кэши (не коммитить в GitHub)
+*.parquet
+.cache_2b/
+weights_2b/
+models/
+hf_cache/
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+*.npy
+*.npz
+*.faiss
+
+# Сабмиты и временные дампы
+sub_*.csv
+oof_*.csv
+ref_smoke.csv
+*.log
+
+# Python / IDE
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
