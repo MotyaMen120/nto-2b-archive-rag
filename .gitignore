@@ -22,11 +22,11 @@ pytorch_model*.bin
 *.part
 *.lock
 
-# Large datasets and intermediate outputs
-corpus*.parquet
-*.parquet
+# Machine-specific state, large datasets and intermediate outputs
 output_2b_final/
 output_2b_v2/
+corpus*.parquet
+*.parquet
 *.zip
 *.sqlite
 *.pt
@@ -35,6 +35,7 @@ output_2b_v2/
 *.memmap
 **/raw.jsonl
 *.raw.jsonl
+solution_2b_complete.zip
 .ipynb_checkpoints/
 
 # Editor and OS files
